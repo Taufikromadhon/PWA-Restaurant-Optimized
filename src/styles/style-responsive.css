@@ -23,9 +23,12 @@
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 600px) {
   .jumbotron {
     background: url('/dist/images/hero-image_4-600.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
@@ -34,7 +37,7 @@
     min-height: 46px;
     min-width: 46px;
   }
-  .restaurant-item__title{
+  .restaurant-item__title {
     width: 100%;
     height: 100%;
     min-height: 46px;
@@ -53,14 +56,14 @@
   ul {
     list-style-type: none;
   }
-  .restaurant-item__title{
+  .restaurant-item__title {
     width: 100%;
     height: 46px;
     padding: 0;
     margin: 0;
     display: block;
   }
-  .link-button{
+  .link-button {
     display: block;
     margin: 0 auto;
     width: 120px;
@@ -72,10 +75,21 @@
   }
 }
 
-@media only screen and (min-width: 651px) {
+@media only screen and (min-width: 601px) {
   .jumbotron {
     background: url('/dist/images/hero-image_4-1000.jpg');
-    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  .jumbotron {
+    background: url('/dist/images/hero-image_4-1200.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 

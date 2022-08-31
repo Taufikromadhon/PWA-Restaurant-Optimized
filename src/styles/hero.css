@@ -48,6 +48,9 @@
   height: 650px;
   object-position: center;
   object-fit: cover;
+  background: url('/dist/images/hero-image_4-1000.jpg');
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-top: -40px;
 }
