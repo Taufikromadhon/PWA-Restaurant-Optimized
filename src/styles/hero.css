@@ -44,10 +44,8 @@
 .jumbotron {
   display: block;
   text-align: center;
-  max-width: 100%;
+  width: 100%;
   height: 650px;
-  /* background-image: url('../public/images/collections/hero-image_4.jpg'); */
-  background-image: url('../../dist/images/hero-image_4-1000.jpg');
   object-position: center;
   object-fit: cover;
   background-position: center;

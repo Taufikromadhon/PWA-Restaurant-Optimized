@@ -4,9 +4,6 @@ window.onload = () => {
     if (event.key === 'Enter') {
       const mainContent = document.querySelector('#mainContent');
       mainContent.focus();
-      console.log('Klik lagi nih');
-    } else {
-      console.log(event.key);
     }
   });
 };

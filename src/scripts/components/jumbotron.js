@@ -10,7 +10,7 @@ class Jumbotron extends HTMLElement {
                 <div class="hero-inner__image"></div>
                 <h1 class="hero-inner__title">Tauresto!</h1>
                 <p class="hero-inner__tagline">Tau Banyak Tentang Restoran, Untuk Kamu!</p>
-                <a href="#mainContent">
+                <a href="#mainContent" class="link-button">
                 <button class="hero-inner__button-buktikan">Explore</button>
                 </a>
               </div>
