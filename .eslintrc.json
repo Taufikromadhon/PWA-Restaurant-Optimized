@@ -2,10 +2,12 @@
     "env": {
         "browser": true,
         "es2021": true,
-        "node": true
+        "node": true,
+        "jasmine": true
     },
     "extends": [
-        "airbnb-base"
+        "airbnb-base",
+        "plugin:jasmine/recommended"
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
@@ -39,7 +41,8 @@
                 "name": "event",
                 "message": ""
             }
-        ]
+        ],
+        "jasmine/no-focused-tests": 0
 
     },
     "plugins": ["jasmine", "codeceptjs"]
